@@ -10,6 +10,7 @@
     margin-right: auto;
     margin-left: auto;
 }
+<<<<<<< HEAD
 p {
     text-align: center;
 }
@@ -19,3 +20,8 @@ p {
    margin-right: auto;
    margin-left: auto;
 }
+=======
+.quizStartButton{
+    text-align: center;
+}
+>>>>>>> adcecb4ffeeb310e2f057f4fa089f962ee45d1e1
