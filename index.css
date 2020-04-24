@@ -1,15 +1,76 @@
 .title{
     text-align: center;
-    margin-top: 100px;
-}
-
-.logo{
-    height: 300px;
-    width: 300px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: 75px;
+    margin-bottom: 200px;
+    color: white;
+    font-size: 30px;
 }
 .quizStartButton{
     text-align: center;
+    
+}
+.quizStartButton button{
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+section{
+    width: 800px;
+    background-color: rgba(65, 44, 160, 0.3);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+}
+.hidden{
+    display: none;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/53/2d/03/532d0341186be12412c6a4362cc08710.jpg");
+    
+}
+.container {
+    margin-top: 300px;
+    border:3px solid olive ;
+    border-radius: 10%;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 204, 153, 0.7);
+    font-size: 30px;
+}
+.question{
+    text-align: center;
+}
+.score{
+    display: inline;
+}
+.optionContainer{
+    margin: 0 auto; 
+    width:50%; 
+    text-align:left;
+}
+.questionSubmit{
+    text-align: right;
+}
+.submit{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.js-correct-answer{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }

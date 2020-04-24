@@ -8,18 +8,73 @@
     <title>Avengers Quiz</title>
 </head>
 <body>
-   <header class="title">
-       <h1>ARE YOU AN AVENGERS FAN?</h1>
-   </header> 
-   <p> <img class="logo" src="https://i.pinimg.com/originals/53/2d/03/532d0341186be12412c6a4362cc08710.jpg" alt="avengers logo"> </p>
-   <p class="quizStartButton"> 
-       <button class="startButton">
-       <span>Start quiz</span>
-         </button> 
-       
-   </p>
+    <section class="hidden">
+        <header class="title">
+            <h1>ARE YOU AN AVENGERS FAN?</h1>
+        </header>
+        <p class="quizStartButton"> 
+            <button><span>Start quiz</span></button>
+        </p>
+    </section>
    <main>
-
+       <div class="container">
+            <form class="form-field">
+                <p class="question">What is Iron Man’s nickname for Thor? <span>Score:</span></p>
+                <div class="optionContainer">
+                    <input type="radio" name="Thor" id="Ice Man" value="Ice Man" class="option">
+                    <label for="Ice Man" class="option">Ice Man</label><br>
+                    <input type="radio" name="Thor" id="Pointbreak" value="Pointbreak" class="option">
+                    <label for="Pointbreak" class="option">Pointbreak</label><br>
+                    <input type="radio" name="Thor" id="Capsicle" value="Capsicle" class="option">
+                    <label for="Capsicle" class="option">Capsicle</label><br>
+                    <input type="radio" name="Thor" id="Build-A-Bear" value="Build-A-Bear" class="option">
+                    <label for="Build-A-Bear" class="option">Build-A-Bear</label><br>
+                </div>
+                <div class="questionSubmit">
+                    <input type="submit" class="submit" value="submit">
+                </div>
+            </form>
+            <div>
+                <p class="js-correct-answer">Incorrect: correct answer is</p>
+            </div>
+            
+        </div>
+        <!-- <div class="container">
+            <form class="form-field">
+                <p class="question">What is Captain America’s shield made of?</p>
+                <div class="optionContainer">
+                    <input type="radio" id="Mithril" class="option">
+                    <label for="Mithril" class="option">Mithril</label><br>
+                    <input type="radio" id="Vibranium" class="option">
+                    <label for="Vibranium" class="option">Vibranium</label><br>
+                    <input type="radio" id="Adamantium" class="option">
+                    <label for="Adamantium" class="option">Adamantium</label><br>
+                    <input type="radio" id="Titanium" class="option">
+                    <label for="Titanium" class="option">Titanium</label><br>
+                </div>
+                <div class="questionSubmit">
+                    <input type="submit" id="1" class="submit" value="submit">
+                </div>
+            </form>
+        </div> -->
+        <!-- <div class="container">
+            <form class="form-field">
+                <p class="question">What is Thor’s new hammer called?</p>
+                <div class="optionContainer">
+                    <input type="radio" id="Stormbreaker" class="option">
+                    <label for="Stormbreaker" class="option">Stormbreaker</label><br>
+                    <input type="radio" id="Stormbringer" class="option">
+                    <label for="Stormbringer" class="option">Stormbringer</label><br>
+                    <input type="radio" id="Mjolnir 2" class="option">
+                    <label for="Mjolnir 2" class="option">Mjolnir 2</label><br>
+                    <input type="radio" id="Doomhammer" class="option">
+                    <label for="Doomhammer" class="option">Doomhammer</label><br>
+                </div>
+                <div class="questionSubmit">
+                    <input type="submit" id="1" class="submit" value="submit">
+                </div>
+            </form>
+        </div> -->
    </main>
 </body>
 </html>
