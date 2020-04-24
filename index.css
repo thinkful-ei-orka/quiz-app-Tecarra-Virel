@@ -14,11 +14,10 @@ section {
     margin: auto;
     margin-bottom: 10px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 100px;
     padding: 10px;
     text-align: center;
     position: relative;
-    background-color: white;
     box-shadow: 2px 3px darkslategrey;
 }
 
