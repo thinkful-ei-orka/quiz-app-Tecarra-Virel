@@ -1,85 +1,25 @@
 <!DOCTYPE html>
-<div id="quiz"></div>
-<button id="submit">Get Results</button>
-<div id="results"></div>
-
-<!--<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name = "description" content = "A quiz about the Avengers">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>Avengers Quiz</title>
-</head>
-<body>
-    <section class="hidden">
-        <header class="title">
-            <h1>ARE YOU AN AVENGERS FAN?</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "description" content = "A quiz about the Avengers">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Avengers Quiz</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <header role="banner">
+            <h1>Are YOU a TRUE Avengers Fan?</h1>
         </header>
-        <p class="quizStartButton"> 
-            <button><span>Start quiz</span></button>
-        </p>
-    </section>
-   <main>
-       <div class="container">
-            <form class="form-field">
-                <p class="question">What is Iron Man’s nickname for Thor? <span>Score:</span></p>
-                <div class="optionContainer">
-                    <input type="radio" name="Thor" id="Ice Man" value="Ice Man" class="option">
-                    <label for="Ice Man" class="option">Ice Man</label><br>
-                    <input type="radio" name="Thor" id="Pointbreak" value="Pointbreak" class="option">
-                    <label for="Pointbreak" class="option">Pointbreak</label><br>
-                    <input type="radio" name="Thor" id="Capsicle" value="Capsicle" class="option">
-                    <label for="Capsicle" class="option">Capsicle</label><br>
-                    <input type="radio" name="Thor" id="Build-A-Bear" value="Build-A-Bear" class="option">
-                    <label for="Build-A-Bear" class="option">Build-A-Bear</label><br>
-                </div>
-                <div class="questionSubmit">
-                    <input type="submit" class="submit" value="submit">
-                </div>
-            </form>
-            <div>
-                <p class="js-correct-answer">Incorrect: correct answer is</p>
-            </div>
-            
-        </div>
-        <!-- <div class="container">
-            <form class="form-field">
-                <p class="question">What is Captain America’s shield made of?</p>
-                <div class="optionContainer">
-                    <input type="radio" id="Mithril" class="option">
-                    <label for="Mithril" class="option">Mithril</label><br>
-                    <input type="radio" id="Vibranium" class="option">
-                    <label for="Vibranium" class="option">Vibranium</label><br>
-                    <input type="radio" id="Adamantium" class="option">
-                    <label for="Adamantium" class="option">Adamantium</label><br>
-                    <input type="radio" id="Titanium" class="option">
-                    <label for="Titanium" class="option">Titanium</label><br>
-                </div>
-                <div class="questionSubmit">
-                    <input type="submit" id="1" class="submit" value="submit">
-                </div>
-            </form>
-        </div> -->
-        <!-- <div class="container">
-            <form class="form-field">
-                <p class="question">What is Thor’s new hammer called?</p>
-                <div class="optionContainer">
-                    <input type="radio" id="Stormbreaker" class="option">
-                    <label for="Stormbreaker" class="option">Stormbreaker</label><br>
-                    <input type="radio" id="Stormbringer" class="option">
-                    <label for="Stormbringer" class="option">Stormbringer</label><br>
-                    <input type="radio" id="Mjolnir 2" class="option">
-                    <label for="Mjolnir 2" class="option">Mjolnir 2</label><br>
-                    <input type="radio" id="Doomhammer" class="option">
-                    <label for="Doomhammer" class="option">Doomhammer</label><br>
-                </div>
-                <div class="questionSubmit">
-                    <input type="submit" id="1" class="submit" value="submit">
-                </div>
-            </form>
-        </div> -->
-   <!--</main>
-
-</body>
+        <main id="content">
+            <section id='begin-quiz'>
+                <h2>Start Quiz</h2>
+                <button class="main-button" alt='Continue Button' type='button'>Continue</button>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="store.js"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
