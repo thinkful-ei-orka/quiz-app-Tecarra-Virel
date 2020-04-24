@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+p {
+    text-align: center;
+}
+
+.startQuizButton{
+   display: block; 
+   margin-right: auto;
+   margin-left: auto;
+}
