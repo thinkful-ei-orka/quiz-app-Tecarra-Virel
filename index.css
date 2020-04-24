@@ -23,6 +23,7 @@ section{
     margin-left: auto;
     margin-top: 150px;
 }
+<<<<<<< HEAD
 .hidden{
     display: none;
 }
@@ -74,3 +75,20 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+=======
+<<<<<<< HEAD
+p {
+    text-align: center;
+}
+
+.startQuizButton{
+   display: block; 
+   margin-right: auto;
+   margin-left: auto;
+}
+=======
+.quizStartButton{
+    text-align: center;
+}
+>>>>>>> adcecb4ffeeb310e2f057f4fa089f962ee45d1e1
+>>>>>>> a1024e180b828ac4f02bec6d1468ff0271ab2089
